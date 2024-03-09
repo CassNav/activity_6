@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name',50)->unique();
             $table->string('city',50);
             $table->integer('titles',50);
-            $table->binary('logo');
+            $table->string('logo');
             $table->timestamps();
         });
     }
